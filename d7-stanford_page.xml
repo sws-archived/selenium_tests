@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://sites-uat.stanford.edu/" />
+<title>d7-stanford_page</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">d7-stanford_page</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/admin/modules</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-stanford-stanford-page-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/node/add/stanford-page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Bacon Iz Gud</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-body-und-0-value</td>
+	<td>Bacon ipsum dolor sit amet deserunt fatback in venison reprehenderit enim labore shankle tail in doner. Pork belly occaecat dolor turkey nulla do et. Jerky corned beef frankfurter, brisket jowl enim laborum ex ut turkey. Consequat filet mignon ullamco ground round pancetta sunt shank, adipisicing prosciutto boudin minim irure est ea commodo.<br /><br />Pancetta swine kielbasa, beef adipisicing kevin tri-tip. Sirloin enim sunt ham pastrami. Rump dolore ex doner exercitation. Chicken t-bone nisi do, strip steak dolore eu.<br /><br />Excepteur pork chop commodo fatback. Cow est proident sirloin laboris andouille pariatur tri-tip sint ut consequat officia pork chop. Short ribs eu enim pork belly eiusmod strip steak fatback dolore boudin prosciutto doner swine kielbasa biltong corned beef. Adipisicing consectetur elit, culpa id incididunt qui tempor sed. Consequat turducken meatball sunt. Brisket cupidatat ham dolor meatball pig drumstick frankfurter pork. Sausage reprehenderit id salami, biltong turducken voluptate tenderloin.<br /><br />Spare ribs pig in, short ribs fatback qui labore pork. Salami kevin ham hock velit. Sausage voluptate elit eiusmod labore pork loin venison duis tail hamburger andouille anim capicola ex. Leberkas shank salami, commodo in pork loin veniam kevin pig eiusmod cillum ad mollit capicola dolore.<br /></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
