@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://sites-uat.stanford.edu/" />
+<title>d7-context_useragent</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">d7-context_useragent</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/admin/modules</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-context-context-useragent-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-context-context-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-context-context-ui-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/admin/structure/context/add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>test123</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=edit-conditions-selector</td>
+	<td>label=Useragent string</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-conditions-plugins-useragent-values</td>
+	<td>Google</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

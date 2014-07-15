@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="d7-admin_views.xml">d7-admin_views</a></td></tr>
+<tr><td><a href="d7-css_injector.xml">d7-css_injector</a></td></tr>
+<tr><td><a href="d7-context-useragent.xml">d7-context_useragent</a></td></tr>
+<tr><td><a href="d7-context-http-headers.xml">d7-context-http-headers</a></td></tr>
+<tr><td><a href="d7-entity.xml">d7-entity</a></td></tr>
+<tr><td><a href="d7-features.xml">d7-features</a></td></tr>
+<tr><td><a href="d7-feeds.xml">d7-feeds</a></td></tr>
+<tr><td><a href="d7-field_collection.xml">d7-field_collection</a></td></tr>
+<tr><td><a href="d7-field_group.xml">d7-field_group</a></td></tr>
+<tr><td><a href="d7-file_entity.xml">d7-file_entity</a></td></tr>
+<tr><td><a href="d7-nodeformcols.xml">d7-nodeformcols</a></td></tr>
+<tr><td><a href="d7-services.xml">d7-services</a></td></tr>
+<tr><td><a href="d7-stanford_courses.xml">d7-stanford_courses</a></td></tr>
+<tr><td><a href="d7-stanford_events_importer.xml">d7-stanford_events_importer</a></td></tr>
+<tr><td><a href="d7-views_bulk_operations.xml">d7-views_bulk_operations</a></td></tr>
+<tr><td><a href="d7-webform.xml">d7-webform</a></td></tr>
+<tr><td><a href="d7-views.xml">d7-views</a></td></tr>
+</tbody></table>
+</body>
+</html>
