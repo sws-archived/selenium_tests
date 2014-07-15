@@ -20,6 +20,7 @@
 <tr><td><a href="d7-file_entity.xml">d7-file_entity</a></td></tr>
 <tr><td><a href="d7-nodeformcols.xml">d7-nodeformcols</a></td></tr>
 <tr><td><a href="d7-services.xml">d7-services</a></td></tr>
+<tr><td><a href="d7-stanford_bean_types.xml">d7-stanford_bean_types</a></td></tr>
 <tr><td><a href="d7-stanford_courses.xml">d7-stanford_courses</a></td></tr>
 <tr><td><a href="d7-stanford_events_importer.xml">d7-stanford_events_importer</a></td></tr>
 <tr><td><a href="d7-uuid.xml">d7-uuid</a></td></tr>
