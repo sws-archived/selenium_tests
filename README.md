@@ -1,4 +1,4 @@
 selenium_tests
 ==============
 
-Drupal 6 and Drupal 7 Selenium IDE test plans and test suites
+Drupal 6 and Drupal 7 selenium IDE test cases and test suites
