@@ -38,6 +38,16 @@
 </tr>
 <tr>
 	<td>open</td>
+	<td>/drupal7-update-status/admin/config/development/performance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-clear</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
 	<td>/drupal7-update-status/admin/structure/context/add</td>
 	<td></td>
 </tr>
@@ -55,6 +65,51 @@
 	<td>type</td>
 	<td>id=edit-reactions-plugins-http-header-http-header-extra-headers</td>
 	<td>X-Robots-Tag: noindex,nofollow,noarchive</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/admin/structure/context</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Delete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/admin/modules</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-context-context-http-header-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-context-context-ui-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-context-context-enable</td>
+	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
