@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://sites-uat.stanford.edu/" />
+<title>d7-stanford_video</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">d7-stanford_video</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/admin/modules</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-modules-stanford-stanford-video-enable</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/node/add/stanford-video</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Streaming Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-stanford-video-account-und-0-value</td>
+	<td>su-webservices</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-stanford-video-filename-und-0-value</td>
+	<td>pickles.flv</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-stanford-video-caption-und-0-upload</td>
+	<td>/Users/jbickar/Documents/SWS/Video/pickles.srt</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal7-update-status/node/add/stanford-video</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>YouTube Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-field-stanford-video-external-und-0-value</td>
+	<td>&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/dQw4w9WgXcQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
