@@ -17,17 +17,17 @@
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
+	<td>check</td>
 	<td>id=edit-status-print-pdf</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
+	<td>check</td>
 	<td>id=edit-status-print</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
+	<td>check</td>
 	<td>id=edit-status-print-mail</td>
 	<td></td>
 </tr>
