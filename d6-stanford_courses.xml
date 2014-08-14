@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://sites-uat.stanford.edu/" />
+<title>d6-stanford_courses</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">d6-stanford_courses</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>drupal6-update-status/admin/build/modules</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-status-stanford-courses</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>drupal6-update-status/node/add/stanford-course-importer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Design Institute Courses</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-feeds-FeedsHTTPFetcher-source</td>
+	<td>http://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;q=Design+Institute+class&amp;collapse=,6,&amp;academicYear=</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>drupal6-update-status/node/add/stanford-course-section-importer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-title</td>
+	<td>Design Institute Course Sections</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-feeds-FeedsHTTPFetcher-source</td>
+	<td>http://explorecourses.stanford.edu/search?view=catalog&amp;filter-coursestatus-Active=on&amp;page=0&amp;catalog=&amp;q=Design+Institute+class&amp;collapse=,6,&amp;academicYear=</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
