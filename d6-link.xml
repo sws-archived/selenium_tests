@@ -69,7 +69,7 @@
 <tr>
 	<td>type</td>
 	<td>id=edit-field-link-0-title</td>
-	<td>Stanford</td>
+	<td>Selenium test link text</td>
 </tr>
 <tr>
 	<td>type</td>
@@ -79,6 +79,11 @@
 <tr>
 	<td>clickAndWait</td>
 	<td>id=edit-submit-1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>link=Selenium test link text</td>
 	<td></td>
 </tr>
 </tbody></table>

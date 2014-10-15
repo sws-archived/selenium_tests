@@ -52,7 +52,7 @@
 	<td>Stanford Sites Profile</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>id=edit-submit</td>
 	<td></td>
 </tr>

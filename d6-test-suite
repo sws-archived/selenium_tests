@@ -8,6 +8,7 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="d6-setup.xml">d6-setup</a></td></tr>
 <tr><td><a href="d6-backup_migrate.xml">d6-backup_migrate</a></td></tr>
 <tr><td><a href="d6-backup_migrate_files.xml">d6-backup_migrate_files</a></td></tr>
 <tr><td><a href="d6-ctools.xml">d6-ctools</a></td></tr>
