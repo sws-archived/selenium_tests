@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://sites-uat.stanford.edu/" />
+<title>d6-views</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">d6-views</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/drupal6-update-status/admin/build/views/add</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-name</td>
+	<td>test_view</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=edit-description</td>
+	<td>Test View</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>uncheck</td>
+	<td>id=edit-live-preview</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Fields')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=edit-row-plugin-node</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=edit-row-plugin-node</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.form-buttons &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.form-buttons &gt; #edit-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/drupal6-update-status/admin/build/views/delete/test_view</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=edit-submit</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
